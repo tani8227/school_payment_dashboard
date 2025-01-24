@@ -62,9 +62,13 @@ Install dependencies:
 npm install
 
 Configure environment variables:
+
 Create a .env file and add the following:
 
+APP_REQUEST_ORIGIN_URL=your frontend url
+
 MONGO_URI=mongodb+srv://testuser:edviron@edvironassessment.ub8p5.mongodb.net/?retryWrites=true&w=majority&appName=edvironAssessment
+
 JWT_SECRET=your_jwt_secret
 
 Start the server:
@@ -76,6 +80,7 @@ Frontend Setup
 Clone the repository:
 
 git clone https://github.com/your-username/school-payments-frontend.git
+
 cd school-payments-frontend
 
 Install dependencies:
@@ -85,7 +90,7 @@ npm install
 Configure environment variables:
 Create a .env file and add API base URL:
 
-VITE_BACKEND_URL =https://your-backend-url.com/api
+VITE_BACKEND_URL =your-backend-url
 
 Start the frontend application:
 
