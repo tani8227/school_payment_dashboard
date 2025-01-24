@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { createUser } from "./userThunks/createUserThunk.jsx";
-import { loginUser } from "./userthunks/loginUserThunk.jsx";
-import { getUser } from "./userThunks/getUserThunk.jsx";
+import { createUser } from "./userThunks/createUserThunk.js";
+import { loginUser } from "./userthunks/loginUserThunk.js";
+import { getUser } from "./userThunks/getUserThunk.js";
 
 const initialState=
 {
