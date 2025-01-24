@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from './store/store.jsx';
+import store from './store/store.js';
 import Home from './pages/Home.jsx';
 import Navbar from './components/navabar/Navbar.jsx';
 import DashBoard from './pages/DashBoard.jsx';
