@@ -8,7 +8,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { loginUser } from '../../Reducers/user/userthunks/loginUserThunk';
+import { loginUser } from '../../Reducers/user/userThunks/loginUserThunk';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#fff',
