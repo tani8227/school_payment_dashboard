@@ -7,7 +7,7 @@ import { FormControl, TextField, Button, Typography } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { useDispatch } from 'react-redux'
-import { createUser } from '../../Reducers/user/userthunks/createUserThunk';
+import { createUser } from '../../Reducers/user/userThunks/createUserThunk';
 import { toast } from 'react-toastify';
 
 
