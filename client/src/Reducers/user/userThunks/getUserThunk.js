@@ -17,7 +17,7 @@ export const getUser = createAsyncThunk(
             }
 
             
-            const response = await axios.get(`${localhost}/api/v1/user/get`, {
+            const response = await axios.get(`https://school-payment-dashboard-backend.onrender.com/api/v1/user/get`, {
                 headers: {
                     Authorization: `Bearer ${token}`,
                 },

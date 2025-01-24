@@ -13,7 +13,7 @@ export const getUpdateTransactionStatus = createAsyncThunk(
         return rejectWithValue('No token found. Please login.');
       }
 
-      const response = await axios.post(`${localhost}/api/v1/transactions/update-status`, transactionData, {
+      const response = await axios.post(`https://school-payment-dashboard-backend.onrender.com/api/v1/transactions/update-status`, transactionData, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

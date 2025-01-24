@@ -8,7 +8,7 @@ export const loginUser = createAsyncThunk(
     async (creadentials, { rejectWithValue }) => {
         try {
             console.log(creadentials);
-            const response = await axios.post(`${localhost}/api/v1/user/login`, creadentials,
+            const response = await axios.post(`https://school-payment-dashboard-backend.onrender.com/api/v1/user/login`, creadentials,
                 {
                     headers: {
                         'Content-Type': 'application/json'  

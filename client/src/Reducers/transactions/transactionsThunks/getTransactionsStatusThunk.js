@@ -14,7 +14,7 @@ export const getTransactionsByCustomId = createAsyncThunk(
                 return;
             }
 
-            const response = await axios.get(`${localhost}/api/v1/transactions/check-status`, {
+            const response = await axios.get(`https://school-payment-dashboard-backend.onrender.com/api/v1/transactions/check-status`, {
                 params: { id: credential },
                 headers: {
                     Authorization: `Bearer ${token}`
