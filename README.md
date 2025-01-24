@@ -1,5 +1,5 @@
 A full-stack web application designed to manage school payments and transactions.
-It consists of a backend built with NestJS and a frontend developed using React.js with Material-UI. 
+It consists of a backend built with node.js and express.js and a frontend developed using React.js with Material-UI. 
 The system allows schools to track payment transactions and check statuses.
 
 Features
